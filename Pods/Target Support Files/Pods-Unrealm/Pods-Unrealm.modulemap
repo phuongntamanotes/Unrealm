@@ -1,0 +1,6 @@
+framework module Pods_Unrealm {
+  umbrella header "Pods-Unrealm-umbrella.h"
+
+  export *
+  module * { export * }
+}

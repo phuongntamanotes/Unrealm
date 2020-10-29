@@ -1,0 +1,34 @@
+PODS:
+  - Realm (5.0.3):
+    - Realm/Headers (= 5.0.3)
+  - Realm/Headers (5.0.3)
+  - RealmSwift (5.0.3):
+    - Realm (= 5.0.3)
+  - RuntimeNew (2.1.5)
+
+DEPENDENCIES:
+  - RealmSwift (= 5.0.3)
+  - RuntimeNew (from `https://github.com/arturdev/RuntimeNew.git`)
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  RuntimeNew:
+    :git: https://github.com/arturdev/RuntimeNew.git
+
+CHECKOUT OPTIONS:
+  RuntimeNew:
+    :commit: 39c7cf5b9a683c2dff931352617101304d283ad6
+    :git: https://github.com/arturdev/RuntimeNew.git
+
+SPEC CHECKSUMS:
+  Realm: bfca1699b61b0b17c3a69ae0e648314eae91fbdb
+  RealmSwift: 493c9f089cd3893b3959007973c0e4f640906ba0
+  RuntimeNew: ef34cf1783be4c1cbe798970bc590924dab5df87
+
+PODFILE CHECKSUM: cfdbd9296fe0df47abb889bef97e7099dc9bc01e
+
+COCOAPODS: 1.9.1
